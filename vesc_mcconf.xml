@@ -7,8 +7,8 @@
     <sensor_mode>0</sensor_mode>
     <l_current_max>400</l_current_max>
     <l_current_min>-400</l_current_min>
-    <l_in_current_max>250</l_in_current_max>
-    <l_in_current_min>-200</l_in_current_min>
+    <l_in_current_max>400</l_in_current_max>
+    <l_in_current_min>-400</l_in_current_min>
     <l_abs_current_max>400</l_abs_current_max>
     <l_min_erpm>-100000</l_min_erpm>
     <l_max_erpm>100000</l_max_erpm>
@@ -26,7 +26,7 @@
     <l_temp_motor_end>100</l_temp_motor_end>
     <l_temp_accel_dec>0.15</l_temp_accel_dec>
     <l_min_duty>0.005</l_min_duty>
-    <l_max_duty>0.95</l_max_duty>
+    <l_max_duty>0.99</l_max_duty>
     <l_watt_max>1.5e+06</l_watt_max>
     <l_watt_min>-1.5e+06</l_watt_min>
     <l_current_max_scale>1</l_current_max_scale>
@@ -177,8 +177,8 @@
     <m_hall_extra_samples>1</m_hall_extra_samples>
     <m_batt_filter_const>45</m_batt_filter_const>
     <si_motor_poles>14</si_motor_poles>
-    <si_gear_ratio>3</si_gear_ratio>
-    <si_wheel_diameter>0.083</si_wheel_diameter>
+    <si_gear_ratio>3.33</si_gear_ratio>
+    <si_wheel_diameter>0.23</si_wheel_diameter>
     <si_battery_type>0</si_battery_type>
     <si_battery_cells>12</si_battery_cells>
     <si_battery_ah>6</si_battery_ah>
