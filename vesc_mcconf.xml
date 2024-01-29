@@ -9,7 +9,7 @@
     <l_current_min>-400</l_current_min>
     <l_in_current_max>400</l_in_current_max>
     <l_in_current_min>-400</l_in_current_min>
-    <l_abs_current_max>400</l_abs_current_max>
+    <l_abs_current_max>480</l_abs_current_max>
     <l_min_erpm>-100000</l_min_erpm>
     <l_max_erpm>100000</l_max_erpm>
     <l_erpm_start>0.8</l_erpm_start>
@@ -48,8 +48,8 @@
     <hall_table__6>4</hall_table__6>
     <hall_table__7>-1</hall_table__7>
     <hall_sl_erpm>2000</hall_sl_erpm>
-    <foc_current_kp>0.0213</foc_current_kp>
-    <foc_current_ki>0.49</foc_current_ki>
+    <foc_current_kp>0.0186</foc_current_kp>
+    <foc_current_ki>0.26</foc_current_ki>
     <foc_f_zv>30000</foc_f_zv>
     <foc_dt_us>0.12</foc_dt_us>
     <foc_encoder_inverted>0</foc_encoder_inverted>
@@ -58,11 +58,11 @@
     <foc_sensor_mode>2</foc_sensor_mode>
     <foc_pll_kp>2000</foc_pll_kp>
     <foc_pll_ki>30000</foc_pll_ki>
-    <foc_motor_l>2.135e-05</foc_motor_l>
-    <foc_motor_ld_lq_diff>9.43e-06</foc_motor_ld_lq_diff>
-    <foc_motor_r>0.0005</foc_motor_r>
-    <foc_motor_flux_linkage>0.006255</foc_motor_flux_linkage>
-    <foc_observer_gain>2.556e+07</foc_observer_gain>
+    <foc_motor_l>1.865e-05</foc_motor_l>
+    <foc_motor_ld_lq_diff>8.69e-06</foc_motor_ld_lq_diff>
+    <foc_motor_r>0.0003</foc_motor_r>
+    <foc_motor_flux_linkage>0</foc_motor_flux_linkage>
+    <foc_observer_gain>0</foc_observer_gain>
     <foc_observer_gain_slow>0.05</foc_observer_gain_slow>
     <foc_observer_offset>-1</foc_observer_offset>
     <foc_duty_dowmramp_kp>50</foc_duty_dowmramp_kp>
@@ -80,12 +80,12 @@
     <foc_sl_openloop_boost_q>0</foc_sl_openloop_boost_q>
     <foc_sl_openloop_max_q>-1</foc_sl_openloop_max_q>
     <foc_hall_table__0>255</foc_hall_table__0>
-    <foc_hall_table__1>77</foc_hall_table__1>
-    <foc_hall_table__2>10</foc_hall_table__2>
-    <foc_hall_table__3>45</foc_hall_table__3>
-    <foc_hall_table__4>141</foc_hall_table__4>
-    <foc_hall_table__5>110</foc_hall_table__5>
-    <foc_hall_table__6>174</foc_hall_table__6>
+    <foc_hall_table__1>73</foc_hall_table__1>
+    <foc_hall_table__2>11</foc_hall_table__2>
+    <foc_hall_table__3>41</foc_hall_table__3>
+    <foc_hall_table__4>144</foc_hall_table__4>
+    <foc_hall_table__5>107</foc_hall_table__5>
+    <foc_hall_table__6>180</foc_hall_table__6>
     <foc_hall_table__7>255</foc_hall_table__7>
     <foc_hall_interp_erpm>500</foc_hall_interp_erpm>
     <foc_sl_erpm>4000</foc_sl_erpm>
@@ -94,7 +94,7 @@
     <foc_sat_comp_mode>2</foc_sat_comp_mode>
     <foc_sat_comp>0</foc_sat_comp>
     <foc_temp_comp>1</foc_temp_comp>
-    <foc_temp_comp_base_temp>28.5</foc_temp_comp_base_temp>
+    <foc_temp_comp_base_temp>22.1</foc_temp_comp_base_temp>
     <foc_current_filter_const>0.1</foc_current_filter_const>
     <foc_cc_decoupling>0</foc_cc_decoupling>
     <foc_observer_type>3</foc_observer_type>
