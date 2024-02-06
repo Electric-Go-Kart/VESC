@@ -57,3 +57,6 @@ Before using VESC Tool, follow these steps to set up your electric kart's ESC (E
 3. Click on the slave ESC; it should be labeled with random numbers. Under general settings, set the slave as "No App." This way, only the CAN bus can control it. The VESC ID must be set to 2.
 
 From this point, feel free to edit values as you learn more about your setup. You should be close to the desired configuration, but remember that some values may only appear after you plug into the ESC. If you have any questions or need assistance, send screenshots of the VESC Tool for better guidance.
+
+# References:
+https://github.com/vedderb/bldc/blob/master/documentation/comm_can.md
